@@ -1,16 +1,58 @@
-# React + Vite
+# ProofNext Client 💻
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+The frontend client for **ProofNext**, built with [React 19](https://react.dev/) and [Vite](https://vite.dev/).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Available Scripts
 
-## React Compiler
+In the `client` directory, you can run:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### `npm run dev`
+Runs the app in development mode with Hot Module Replacement (HMR).  
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
-## Expanding the Oxlint configuration
+### `npm run build`
+Builds the app for production to the `dist` folder.  
+Optimizes the build for the best performance.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### `npm run preview`
+Locally preview the production build.
+
+### `npm run lint`
+Runs [Oxlint](https://oxc.rs/) to check for code quality and lint issues.
+
+---
+
+## 🛠️ Tech Stack & Tooling
+
+- **React 19**: Modern UI component library
+- **Vite 8**: Fast ES module-powered dev server and bundler
+- **Oxlint**: Ultra-fast Rust-based JavaScript/JSX linter
+- **Lucide Icons**: Clean, scalable vector icons
+- **Vanilla CSS**: Optimized modular styling
+
+---
+
+## 📁 Directory Structure
+
+```text
+client/
+├── public/              # Static files (favicon, icon sprites)
+├── src/
+│   ├── assets/          # Component assets and logos
+│   ├── App.jsx          # Root application component
+│   ├── App.css          # Application component styles
+│   ├── index.css        # Global layout and design tokens
+│   └── main.jsx         # Application entry point
+├── .oxlintrc.json       # Oxlint linter rules
+├── index.html           # HTML template
+├── package.json         # Client dependencies & scripts
+└── vite.config.js       # Vite configuration
+```
+
+---
+
+## 🔗 Related
+
+- [Root Project README](../README.md)
